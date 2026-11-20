@@ -24,9 +24,15 @@ input[type=text],select{width:100%;background:#1d1d20;color:var(--tx);border:1px
 pre{background:#0e0e10;border:1px solid var(--line);border-radius:6px;padding:9px;font:11.5px/1.5 ui-monospace,Menlo,monospace;white-space:pre-wrap;color:#cfcfd4;margin:6px 0}
 .note{color:var(--mu);font-size:12px;margin:6px 0}
 .mini{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0}
+.intro{width:100%;max-width:1100px;color:var(--mu);font-size:12.5px;line-height:1.5}
+.intro b{color:var(--tx);font-weight:600}.intro a{color:var(--tx)}
+.intro code{font:11.5px ui-monospace,Menlo,monospace;color:#cfcfd4}
 </style></head><body>
 <div class="app">
  <div class="stage">
+  <div class="intro"><b>Tilos headbang – settings playground.</b> A quick 2D preview for tuning the look of the music video renderer.
+   Adjust the sliders, press <b>Copy settings</b> and save the result as <code>settings.json</code>,
+   then render your mix with the Python code from <a href="https://github.com/aboros/tilos-headbang">github.com/aboros/tilos-headbang</a> (setup and usage in its README).</div>
   <canvas id="cv" width="1920" height="1080"></canvas>
   <div class="bar">
    <button id="bPause">Pause</button>
