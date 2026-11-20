@@ -5,6 +5,8 @@ a text ring turns behind it, and a few times during the mix the glasses become h
 GPU and no paid service, and renders an hour-long mix in chunks that join seamlessly. The audio of your mp3 is used as it
 is (only encoded to AAC 256k).
 
+**Example:** the full 60-minute mix this was built for, rendered with these scripts: https://www.youtube.com/watch?v=WLPPujY9PTI
+
 **Live playground:** [fine-tune the look in your browser first](https://aboros.github.io/tilos-headbang/) -
 tweak the head motion, spirals and text ring, press *Copy settings*, and save the result as `settings.json` (see
 [Tune the look](#2-tune-the-look)). The page is a single self-contained file in this repo, `docs/index.html`: it is served by GitHub Pages and also works offline when opened in any browser.
